@@ -78,11 +78,11 @@
    <distributionManagement>
       <repository>
          <id>nexus</id>
-         <url>http://localhost:8081/nexus/repository/knoteapp-RELEASE/</url>
+         <url>http://localhost:8081/nexus/repository/knoteapp-RELEASE</url>
       </repository>
 	  <snapshotRepository>
             <id>nexus</id>
-            <url>http://localhost:8081/nexus/repository/knoteapp-SNAPSHOT/</url>
+            <url>http://localhost:8081/nexus/repository/knoteapp-SNAPSHOT</url>
         </snapshotRepository>
    </distributionManagement>
 
