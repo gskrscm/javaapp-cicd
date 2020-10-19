@@ -77,12 +77,12 @@
    </repositories> -->
    <distributionManagement>
       <repository>
-         <id>nexus-premise</id>
-         <url>http://ec2-15-206-189-141.ap-south-1.compute.amazonaws.com:8081/repository/knoteapp-RELEASE/</url>
+         <id>nexus</id>
+         <url>http://localhost:8081/nexus/repository/knoteapp-RELEASE/</url>
       </repository>
 	  <snapshotRepository>
-            <id>nexus-premise</id>
-            <url>http://ec2-15-206-189-141.ap-south-1.compute.amazonaws.com:8081/repository/knoteapp-SNAPSHOT/</url>
+            <id>nexus</id>
+            <url>http://localhost:8081/nexus/repository/knoteapp-SNAPSHOT/</url>
         </snapshotRepository>
    </distributionManagement>
 
